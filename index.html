@@ -1,8 +1,144 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="/resources/style.css">
+        <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="resources/style.css">
     </head>
     <body>
-        <script src="/resources/script.js"></script>
+
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()" >Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+                <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </header>
+
+        <section class="banner" id="home">
+            <div class="textBx">
+                <h2><spin>Hello, I'm</spin> <br><span>Oyakhilome Jesuseme.</span></h2>
+                <h3>I'm a Software Developer.</h3>
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h3>I'm a Software Developer.</h3>
+                    <p>I am driven, hard-working and a fast-learner always seeking to increase my ability and knowledge. I aspire to work in high growth environment that believes it is making an impact, whether large or small. I would also be grateful to have the opportunity to work on different aspects of development. 
+                    <br><br>So I'm looking for a role that responds to that and will allow me to not only prove myself but also push me to continue learning.</p>
+                </div>
+                <div class="w50"> 
+                    <div class="skill">
+                        <div class="topic">SkillSet</div>
+                        <hr>
+                        <p>	<span>Wordpress</span>	<span>HTML</span>	<span>CSS</span>	<span>Javascript(Node/Express)</span>	<span>Python(Django)</span>		<span>SQL</span>	<span>Git</span>   <span>Figma</span></p>
+                    </div>
+        
+                    <div class="edu">
+                        <div class="topic">Education</div>
+                        <hr>
+                        <p>BSc. Computer Science(Information Systems) <br> <span class="level2">Babcock University</span> <br> <span class="level3">2018 Nigeria</span></p>
+                        <p>Front End Developer <br> <span class="level2">FreeCodeCamp</span> <br> <span class="level3">2020</span> </p>
+                        <p>Finalist <br> <span class="level2">StartNg</span> <br> <span class="level3">2020</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="extra">
+
+            </div>
+
+        </section>
+
+        <section class="services" id="services">
+            <div class="heading white">
+                <h2>Services</h2>
+                <p>Here is a list of my acquired skills and proficencies</p>
+            </div>
+            <div class="content">
+                <div class="servicesBx">
+                    <img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268926/icon1_1_x7stp3.png" alt="">
+                    <h2>Front-End Design</h2>
+                    <p>My Front-End design proficiencies include; Wordpress, Css3, Javascript, Bootstrap, jQuery.</p>
+                </div>
+
+                <div class="servicesBx">
+                    <img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268926/icon2_1_ertseh.png" alt="">
+                    <h2>UI/UX Design</h2>
+                    <p>I build User interface and User experience design layouts and prototypes using Figma  .</p>
+                </div>
+
+                <div class="servicesBx">
+                    <img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268925/icon5_ilqg8v.png" alt="">
+                    <h2>Back-End Design </h2>
+                    <p>My Back-End Design proficencies include: Express, Node.js, Django, SQL</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>My Latest Work</h2>
+                <p>Here are a few of the projects that I have been involved in recently.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <a href="https://jesuseme.github.io/landing-page-with-video-frame/"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268968/2_qik9wf.png" alt=""></a>
+                </div>
+                <div class="workBx">
+                    <a href="https://jesuseme.github.io/base-responsive-page-template/"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268925/4_z6lrwc.png" alt=""></a>
+                </div>
+                <div class="workBx">
+                    <a href="https://dribbble.com/shots/12083791-Adventure-Time-travel-site"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268927/1_ox4l6t.png" alt=""></a>
+                </div>
+                <div class="workBx">
+                    <a href="https://jesuseme.github.io/article-preview-component-master/"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268926/3_wy001y.png" alt=""></a>
+                </div>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/Jesuseme" class="btn">View More</a>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="heading white"> 
+                <h2>Contact</h2>
+                <P>Here's how you can get in touch:</P>
+            </div>
+            <div class="content">
+                <div class="contactBx">
+                    <a href="https://github.com/Jesuseme"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1592614716/github_e3mxke.png" alt=""></a>
+                </div>
+                <div class="contactBx">
+                    <a href="https://twitter.com/Entitled_Native"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1592263124/twitter_dhoq0n.png" alt=""></a> 
+                </div>
+                <div class="contactBx">
+                    <a href="mailto:oyakhilomejesuseme@gmail.com"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268926/icon9_dwbj9c.png" alt=""></a> 
+                </div>
+                <div class="contactBx">
+                    <a href="https://www.linkedin.com/in/jesuseme-oyakhilome-2b8653135/"><img src="https://res.cloudinary.com/jesuseme/image/upload/v1599268926/icon10_rw0rtr.png" alt=""></a> 
+                </div>
+            </div>
+        </section>
+
+
+        <section class="copyright">
+            <p>copyright 2020 Entitled Native. All Rights Reserved</p>
+        </section>
+
+
+        <script src="resources/script.js"></script>
     </body>
 </html>
