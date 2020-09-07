@@ -67,8 +67,9 @@ section{
 
 .btn:hover {
     color: #EA638C;
-    background: #fff;
-    border: 1px solid #EA638C;
+    background: #fff; 
+    border: 2px solid #EA638C;
+    margin-top: 16px;
 }
 
 header {
@@ -111,7 +112,14 @@ header ul {
 header ul li {
     position: relative;
     list-style: none;
+    transition: 0.2s;
 }
+
+header ul li:hover {
+    border-bottom: 4px solid #EA638C; 
+    margin-bottom: -4px;
+}
+
 
 header ul li a {
     position: relative;
