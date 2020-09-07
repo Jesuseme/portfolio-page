@@ -44,7 +44,7 @@ section{
     background: #e8e8e6;
 }
 
-.banner h3 {
+.banner h3 span{
     font-size: 1.5em;
     color: #453F3C;
     font-weight: 500; 
@@ -396,5 +396,11 @@ header.sticky ul li a {
 
     section {
         padding: 100px 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    .contact .content {
+        padding-left: 15%;
     }
 }
